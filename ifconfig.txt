@@ -1,0 +1,86 @@
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        ether 08:00:27:ab:ac:36  txqueuelen 1000  (Ethernet)
+        RX packets 182  bytes 17518 (17.5 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 203  bytes 18021 (18.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 2327  bytes 138696 (138.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2327  bytes 138696 (138.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        ether 82:8f:46:da:66:cd  txqueuelen 1000  (Ethernet)
+        RX packets 46  bytes 4172 (4.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 46  bytes 4172 (4.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        ether 46:c3:d1:19:ed:38  txqueuelen 1000  (Ethernet)
+        RX packets 23  bytes 2086 (2.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 24  bytes 2128 (2.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s1-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        ether 72:ca:e9:15:3b:73  txqueuelen 1000  (Ethernet)
+        RX packets 23  bytes 2086 (2.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 24  bytes 2128 (2.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        ether 22:55:c8:b1:b4:74  txqueuelen 1000  (Ethernet)
+        RX packets 24  bytes 2128 (2.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 23  bytes 2086 (2.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s2-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        ether 02:20:50:7c:96:cd  txqueuelen 1000  (Ethernet)
+        RX packets 23  bytes 2086 (2.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 24  bytes 2128 (2.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        ether d6:e6:83:68:a7:f1  txqueuelen 1000  (Ethernet)
+        RX packets 23  bytes 2086 (2.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 24  bytes 2128 (2.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        ether aa:40:3b:a5:e7:ab  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1  bytes 42 (42.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s3-eth3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        ether a2:4f:68:3a:18:93  txqueuelen 1000  (Ethernet)
+        RX packets 24  bytes 2128 (2.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 23  bytes 2086 (2.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s4-eth1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        ether 36:cb:ee:a9:98:42  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1  bytes 42 (42.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+s4-eth2: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        ether 62:60:45:9b:64:cc  txqueuelen 1000  (Ethernet)
+        RX packets 1  bytes 42 (42.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
